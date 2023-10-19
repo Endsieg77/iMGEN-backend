@@ -7,7 +7,7 @@ spring:
       enabled: always
 
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/img_gentor_app
+    url: [your url here]
     username: root
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,22 +17,18 @@ spring:
       max-file-size: 1GB
       max-request-size: 1GB
 
-  cors:
-    allowed-origins: http://localhost:3000
-    allowed-methods: GET, POST, PATCH, PUT, DELETE, OPTIONS, HEAD
-
   mail:
-    host: smtp.qq.com
-    username: 1054296510@qq.com
-    password: wcmzcknkgrvtbfdh
-    protocol: smtp
-    properties.mail.smtp.auth: true
-    properties.mail.smtp.port: 465
-    properties.mail.smtp.starttls.enable: true
-    properties.mail.smtp.starttls.required: true
-    properties.mail.smtp.ssl.enable: true
-    from: 1054296510@qq.com
-    default-encoding: utf-8
+    host: 
+    username: 
+    password: 
+    protocol: 
+    properties.mail.smtp.auth: 
+    properties.mail.smtp.port: 
+    properties.mail.smtp.starttls.enable: 
+    properties.mail.smtp.starttls.required: 
+    properties.mail.smtp.ssl.enable: 
+    from: 
+    default-encoding: 
 
 mybatis-plus:
   configuration:
