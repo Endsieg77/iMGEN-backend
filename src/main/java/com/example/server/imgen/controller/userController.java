@@ -41,7 +41,7 @@ public class userController {
     @Autowired
     private MailService mailService;
 
-    static final String client_url = "http://localhost:3000";
+    // your client url here: static final String client_url = "http://localhost:3000";
     static final String user_url = client_url + "/user";
 
     @GetMapping("/login")
